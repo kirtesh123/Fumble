@@ -1,0 +1,22 @@
+.form {
+  text-align: center;
+  background-color: rgb(206, 229, 241);
+  margin-left: 235px;
+  margin-right: 235px;
+  border-radius: 8px;
+}
+
+.continue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.greenbutton {
+  background-color: rgb(51, 194, 51) !important;
+}
+
+.subtitle {
+  
+}
