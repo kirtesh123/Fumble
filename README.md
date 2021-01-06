@@ -2,6 +2,6 @@
 
 Tinder-like App for Food !
 
-### View the deployed version [here](https://github.com/facebook/create-react-app).
+### View the deployed version [here](https://google.com).
 
 Technologies Used: ReactJS, Redux, HTML, CSS, Firebase, Material-UI
