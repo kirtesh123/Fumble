@@ -7,6 +7,8 @@ import SwipeButtons from "./components/SwipeButtons";
 import Chats from "./components/Chats";
 import ChatScreen from "./components/ChatScreen";
 import Form from "./components/Form";
+import { Button } from '@material-ui/core';
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 function App() {
   const [swipeCheck, setSwipeCheck] = useState([]);
@@ -35,7 +37,9 @@ function App() {
           
         </Switch>
       </Router>
-      
+      <div className="sourcebtn">
+        <Button variant="outlined" color="secondary" href="https://google.com">Source Code <GitHubIcon className="giticon"/></Button>
+      </div>
     </div>
   );
 }
