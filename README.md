@@ -2,6 +2,6 @@
 
 Tinder-like App for Food !
 
-Technologies Used: ReactJS, Redux, HTML, CSS, Firebase, Material-UI
+Technologies Used: React, Redux, Firebase, HTML, CSS, Material-UI
 
-### View the deployed version [here](https://google.com).
+### View the deployed version [here](https://fumble-cbe9f.web.app/).
