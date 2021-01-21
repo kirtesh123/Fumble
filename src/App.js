@@ -21,6 +21,9 @@ function App() {
             <Header/>
             <TinderCards swipeCheck={swipeCheck} setSwipeCheck={setSwipeCheck}  choice={choice}/>
             <SwipeButtons />
+            <div className="sourcebtn">
+              <Button variant="outlined" color="secondary" href="https://github.com/kirtesh123/Fumble">Source Code <GitHubIcon className="giticon"/></Button>
+            </div>
           </Route>
           <Route path="/chat/:id">
             <Header backButton="/chat"/>
@@ -37,9 +40,9 @@ function App() {
           
         </Switch>
       </Router>
-      <div className="sourcebtn">
+      {/* <div className="sourcebtn">
         <Button variant="outlined" color="secondary" href="https://github.com/kirtesh123/Fumble">Source Code <GitHubIcon className="giticon"/></Button>
-      </div>
+      </div> */}
     </div>
   );
 }

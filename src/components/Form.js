@@ -9,6 +9,8 @@ import FormHelperText from '@material-ui/core/FormHelperText';
 import FormLabel from '@material-ui/core/FormLabel';
 import Button from '@material-ui/core/Button';
 import "../styles/Form.css";
+import GitHubIcon from '@material-ui/icons/GitHub';
+
 
 import { useDispatch, useSelector } from "react-redux";
 import { handleChoice } from "../redux/ducks/choice";
@@ -75,6 +77,9 @@ const Form = () => {
             <Link to="/home">
                 <Button variant="contained" color="primary" className="greenbutton">Click here to continue</Button>
             </Link>
+            </div>
+            <div className="sourcebtn">
+                <Button variant="outlined" color="secondary" href="https://github.com/kirtesh123/Fumble">Source Code <GitHubIcon className="giticon"/></Button>
             </div>
         </div>
     )

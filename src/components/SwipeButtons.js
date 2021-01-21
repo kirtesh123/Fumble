@@ -15,7 +15,7 @@ const SwipeButtons = () => {
             <IconButton className="swipeButtons_star"><StarRateIcon fontSize="large" /></IconButton>
             <IconButton className="swipeButtons_right"><FavoriteIcon fontSize="large" /></IconButton>
             <IconButton className="swipeButtons_lightning"><FlashOnIcon fontSize="large" /></IconButton> */}
-            <h1>Swipe right if you like the food, then click chat icon so see details!</h1>
+            <h1>Swipe right if you like the food and swipe left if  don't, then click chat icon to see details!</h1>
         </div>
     )
 }
