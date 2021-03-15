@@ -22,7 +22,7 @@ function App() {
             <TinderCards swipeCheck={swipeCheck} setSwipeCheck={setSwipeCheck}  choice={choice}/>
             <SwipeButtons />
             <div className="sourcebtn">
-              <Button variant="outlined" color="secondary" href="https://github.com/kirtesh123/Fumble">Source Code <GitHubIcon className="giticon"/></Button>
+              <Button variant="outlined" color="secondary" href="https://github.com/kirtesh123/CraveCatcher">Source Code <GitHubIcon className="giticon"/></Button>
             </div>
           </Route>
           <Route path="/chat/:id">

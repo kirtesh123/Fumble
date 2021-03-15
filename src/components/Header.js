@@ -29,7 +29,7 @@ const Header = (props) => {
             )}
             <Link to="/home">
                 {/* <img className="header__logo" src="https://1000logos.net/wp-content/uploads/2018/07/tinder-logo.png" alt="tinder logo"/> */}
-                <h1>FUMBLE</h1>
+                <h1 className="header__title">CraveCatcher</h1>
             </Link>
             <Link to="/chat">
                 <IconButton><ChatIcon className="header__icon chat_icon"  /></IconButton>

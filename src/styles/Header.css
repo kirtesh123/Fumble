@@ -16,3 +16,8 @@
   margin: 0px !important;
   padding: 10px;
 }
+
+.header__title {
+
+  font-size: 40px;
+}

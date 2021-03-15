@@ -1,13 +1,13 @@
 import firebase from "firebase";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCBvIBA5nkUVwDc5pNqnd8MJYJ4b2ufe6M",
-  authDomain: "fumble-cbe9f.firebaseapp.com",
-  projectId: "fumble-cbe9f",
-  storageBucket: "fumble-cbe9f.appspot.com",
-  messagingSenderId: "1073924619018",
-  appId: "1:1073924619018:web:61c9bd93625a84fc6c18f3",
-  measurementId: "G-72NLT6R19C"
+  apiKey: "AIzaSyClxYEA3DSn9FKRa6jrfNVVOkm_lBB2J8E",
+  authDomain: "cravecatcher-4bfb3.firebaseapp.com",
+  projectId: "cravecatcher-4bfb3",
+  storageBucket: "cravecatcher-4bfb3.appspot.com",
+  messagingSenderId: "189049289622",
+  appId: "1:189049289622:web:f5732b51077b06833d7bb7",
+  measurementId: "G-2GMCYVPXYJ"
 };
 
   const firebaseApp = firebase.initializeApp(firebaseConfig);
